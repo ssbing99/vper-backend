@@ -1,0 +1,4 @@
+deployment:
+tasks:
+  - export DEPLOYPATH=/home/yperkqlb/public_html/yper-app
+  - /bin/cp -r * $DEPLOYPATH
